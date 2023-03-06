@@ -33,5 +33,8 @@ node graphiql.js
 #
 #Each of these types maps straightforwardly to JavaScript,
 # so you can just return plain old JavaScript objects in APIs that return these types.
-
 node basic_types.js
+
+# Instead of a root-level resolver for the RandomDie type,
+# we can instead use an ES6 class, where the resolvers are instance methods.
+node object_types.js
