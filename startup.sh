@@ -55,4 +55,9 @@ node object_types.js
 
 # In a REST API, authentication is often handled with a header,
 # that contains an auth token which proves what user is making this request.
-# 因为 GraphQL 构建在 HTTP 之上, 所以 GraphQL Server 的实现应该支持 resolver 通过读取 HTTP Header 来获取用户身份认证信息.
+# 因为 GraphQL 构建在 HTTP 之上, 所以 GraphQL server 的实现应该支持 resolver 通过读取 HTTP Header 来获取用户身份认证信息.
+
+# 编程方式构建 GraphQL Schema 的表达力和以字符串的方式直接书写 Schema 的表达力是相同的.
+# 比如在类型上强加非空约束 (使用 GraphQLNonNull ).
+# 非空约束可以加在输入参数上也可加在输出结果上. 不满足该约束时 GraphQL server 向客户端返回错误.
+

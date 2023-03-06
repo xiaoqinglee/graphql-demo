@@ -18,8 +18,8 @@ var schema = buildSchema(`
 
 // This class implements the RandomDie GraphQL type
 // 使用 ES6 class instance 映射查询 type,
-// 使用 class instance 的 field 或无参 method 作为查询 type 的同名无参 feild 的 resolver
-// 使用 class instance 的 有参 method 作为查询 type 的同名有参 feild 的 resolver
+// 使用 class instance 的 field 或无参 method 作为查询 type 的同名无参 field 的 resolver
+// 使用 class instance 的 有参 method 作为查询 type 的同名有参 field 的 resolver
 class RandomDie {
     constructor(numSides) {
         this.numSides = numSides;
