@@ -8,3 +8,6 @@ export PATH="$PATH:$HOME/Library/Application Support/JetBrains/WebStorm2022.3/no
 
 npm init
 npm install graphql --save
+
+# https://graphql.org/graphql-js/
+node server.js
