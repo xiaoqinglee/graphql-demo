@@ -1,1 +1,1 @@
-# graphql-js-demo
+# graphql-demo
