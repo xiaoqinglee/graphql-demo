@@ -52,3 +52,7 @@ node object_types.js
 #
 # To call a mutation, you must use the keyword mutation before your GraphQL query.
 # To pass an input type, provide the data written as if it's a JSON object.
+
+# In a REST API, authentication is often handled with a header,
+# that contains an auth token which proves what user is making this request.
+# 因为 GraphQL 构建在 HTTP 之上, 所以 GraphQL Server 的实现应该支持 resolver 通过读取 HTTP Header 来获取用户身份认证信息.
